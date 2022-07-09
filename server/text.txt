@@ -1,0 +1,2 @@
+PORT=5000
+CONNECTION_URL="mongodb+srv://Santhosh2002:Santhosh2002@cluster0.kdf8fpj.mongodb.net/?retryWrites=true&w=majority"
