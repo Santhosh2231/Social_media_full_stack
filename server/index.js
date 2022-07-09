@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({limit:"30mb", extended: true}))
 
 app.use('/posts',postRoutes);
 app.use("/users",userRoutes);
-const CONNECTION_URL = "mongodb+srv://Santhosh2002:Santhosh2002@cluster0.kdf8fpj.mongodb.net/?retryWrites=true&w=majority";
+const CONNECTION_URL = "mongodb+srv://<Username>:<Password>@cluster0.kdf8fpj.mongodb.net/?retryWrites=true&w=majority";
 const PORT = process.env.PORT || 5000;
 
 
